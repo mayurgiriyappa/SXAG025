@@ -1,0 +1,8 @@
+google-generativeai
+aiohttp
+sentence-transformers
+numpy
+scikit-learn
+tenacity
+reportlab
+python-dotenv
