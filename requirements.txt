@@ -6,3 +6,8 @@ scikit-learn
 tenacity
 reportlab
 python-dotenv
+pypdf
+markdown
+xhtml2pdf
+networkx
+pyvis

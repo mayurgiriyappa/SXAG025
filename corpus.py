@@ -6,14 +6,16 @@ import xml.etree.ElementTree as ET
 
 logger = logging.getLogger(__name__)
 
-PUBMED_API_URL = os.environ.get("PUBMED_API_URL", "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi")
+SEMANTIC_SCHOLAR_API_KEY="AAMYCibSel5gLjGSpX8UY23IDom34AjO3KHHZ8vq"
 ARXIV_API_URL = os.environ.get("ARXIV_API_URL", "http://export.arxiv.org/api/query")
+TAVILY_API_KEY="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"
+EXA_API_KEY="d95cd89f-10b0-483d-9366-43cb54efec72"
 
 
 async def fetch_pubmed_count(session: aiohttp.ClientSession, query: str) -> int:
-    url = PUBMED_API_URL
+    url = SEMANTIC_SCHOLAR_API_KEY
     params = {
-        "db": "pubmed",
+        "db": "semantic_scholar",
         "term": query,
         "retmode": "json",
         "usehistory": "y"
@@ -25,7 +27,7 @@ async def fetch_pubmed_count(session: aiohttp.ClientSession, query: str) -> int:
                 count_str = data.get("esearchresult", {}).get("count", "0")
                 return int(count_str)
     except Exception as e:
-        logger.error(f"PubMed corpus fetch failed: {e}")
+        logger.error(f"Semantic Scholar corpus fetch failed: {e}")
     return 0
 
 async def fetch_arxiv_count(session: aiohttp.ClientSession, query: str) -> int:
@@ -55,13 +57,13 @@ async def get_corpus_visibility(query: str) -> dict:
     """
     logger.info(f"Estimating corpus visibility for query: '{query}'")
     async with aiohttp.ClientSession() as session:
-        pubmed_task = fetch_pubmed_count(session, query)
+        semantic_scholar_task = fetch_semantic_scholar_count(session, query)
         arxiv_task = fetch_arxiv_count(session, query)
         
-        pubmed_count, arxiv_count = await asyncio.gather(pubmed_task, arxiv_task)
+        semantic_scholar_count, arxiv_count = await asyncio.gather(semantic_scholar_task, arxiv_task)
         
         return {
-            "pubmed_estimated": pubmed_count,
+            "semantic_scholar_estimated": semantic_scholar_count,
             "arxiv_estimated": arxiv_count,
-            "total_estimated": pubmed_count + arxiv_count
+            "total_estimated": semantic_scholar_count + arxiv_count
         }

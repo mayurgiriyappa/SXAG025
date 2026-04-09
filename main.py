@@ -11,6 +11,9 @@ from planner import generate_queries
 from fetcher import fetch_all_queries
 from mmr import apply_mmr, embed_papers, embed_query
 from access import process_paper_access_layer
+from clustering import apply_clustering
+from synthesizer import generate_synthesis
+from compiler import compile_final_report
 
 # Configure simple logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -93,16 +96,26 @@ async def process_pipeline(user_query: str):
     # 5. Paper Access Layer
     final_selected = await process_paper_access_layer(final_selected)
     
+    # 6. HDBSCAN Clustering
+    final_selected = apply_clustering(final_selected)
+    
     # Clean up non-serializable fields (like 'embedding' numpy array)
     for p in final_selected:
         p.pop('embedding', None)
+        
+    # 7. Synthesizer Layer
+    synthesis_md = generate_synthesis(final_selected, user_query)
+    
+    # 8. Compiler Layer
+    final_pdf_path = compile_final_report(user_query, corpus_metadata, synthesis_md, final_selected)
     
     # Prepare Output
     output = {
         "corpus_metadata": corpus_metadata,
         "queries": queries,
         "total_papers_fetched": total_fetched,
-        "selected_papers": final_selected
+        "selected_papers": final_selected,
+        "compiled_pdf_path": final_pdf_path
     }
     
     return output
