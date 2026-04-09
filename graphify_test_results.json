@@ -1,0 +1,3262 @@
+{
+    "graph_nodes": [
+        {
+            "id": "P_Sonal2024",
+            "label": "Prebiotics: Its Health Benefits, Sources and Importance in Taking Diet",
+            "type": "Paper"
+        },
+        {
+            "id": "P_KhangwalShukla2019",
+            "label": "Potential prebiotics and their transmission mechanisms: Recent approaches",
+            "type": "Paper"
+        },
+        {
+            "id": "P_Vieira2013",
+            "label": "The role of probiotics and prebiotics in inducing gut immunity",
+            "type": "Paper"
+        },
+        {
+            "id": "P_Olas2020",
+            "label": "Probiotics, Prebiotics and Synbiotics\u2014A Promising Strategy in Prevention and Treatment of Cardiovascular Diseases?",
+            "type": "Paper"
+        },
+        {
+            "id": "P_SantiestebanLopez2025",
+            "label": "Importance of probiotics and prebiotics and their mechanism of immune action against COVID-19",
+            "type": "Paper"
+        },
+        {
+            "id": "C_Prebiotics",
+            "label": "Prebiotics",
+            "type": "Concept"
+        },
+        {
+            "id": "C_Probiotics",
+            "label": "Probiotics",
+            "type": "Concept"
+        },
+        {
+            "id": "C_Synbiotics",
+            "label": "Synbiotics",
+            "type": "Concept"
+        },
+        {
+            "id": "C_GutMicrobiota",
+            "label": "Gut Microbiota",
+            "type": "Concept"
+        },
+        {
+            "id": "C_HumanHealth",
+            "label": "Human Health",
+            "type": "Concept"
+        },
+        {
+            "id": "C_ImmuneSystem",
+            "label": "Immune System",
+            "type": "Concept"
+        },
+        {
+            "id": "C_Digestion",
+            "label": "Digestion",
+            "type": "Concept"
+        },
+        {
+            "id": "C_Inflammation",
+            "label": "Inflammation",
+            "type": "Concept"
+        },
+        {
+            "id": "C_NutrientAbsorption",
+            "label": "Nutrient Absorption",
+            "type": "Concept"
+        },
+        {
+            "id": "C_SCFAs",
+            "label": "Short-Chain Fatty Acids (SCFAs)",
+            "type": "Concept"
+        },
+        {
+            "id": "C_OxidativeStress",
+            "label": "Oxidative Stress",
+            "type": "Concept"
+        },
+        {
+            "id": "C_CholesterolLevels",
+            "label": "Cholesterol Levels",
+            "type": "Concept"
+        },
+        {
+            "id": "C_BloodPressure",
+            "label": "Blood Pressure",
+            "type": "Concept"
+        },
+        {
+            "id": "C_GutLungAxis",
+            "label": "Gut-Lung Axis",
+            "type": "Concept"
+        },
+        {
+            "id": "C_IntestinalHomeostasis",
+            "label": "Intestinal Homeostasis",
+            "type": "Concept"
+        },
+        {
+            "id": "C_GutDysbiosis",
+            "label": "Gut Dysbiosis",
+            "type": "Concept"
+        },
+        {
+            "id": "C_AntimicrobialSubstances",
+            "label": "Antimicrobial Substances",
+            "type": "Concept"
+        },
+        {
+            "id": "C_Bacteriocins",
+            "label": "Bacteriocins",
+            "type": "Concept"
+        },
+        {
+            "id": "C_Cytokines",
+            "label": "Cytokines",
+            "type": "Concept"
+        },
+        {
+            "id": "C_TMAO",
+            "label": "Trimethylamine N-oxide (TMAO)",
+            "type": "Concept"
+        },
+        {
+            "id": "C_UricAcidLevel",
+            "label": "Uric Acid Level",
+            "type": "Concept"
+        },
+        {
+            "id": "D_Obesity",
+            "label": "Obesity",
+            "type": "Disease"
+        },
+        {
+            "id": "D_Diabetes",
+            "label": "Diabetes",
+            "type": "Disease"
+        },
+        {
+            "id": "D_InflammatoryDisorders",
+            "label": "Inflammatory Disorders",
+            "type": "Disease"
+        },
+        {
+            "id": "D_Type2Diabetes",
+            "label": "Type 2 Diabetes",
+            "type": "Disease"
+        },
+        {
+            "id": "D_IBD",
+            "label": "Inflammatory Bowel Disease (IBD)",
+            "type": "Disease"
+        },
+        {
+            "id": "D_CVD",
+            "label": "Cardiovascular Diseases (CVD)",
+            "type": "Disease"
+        },
+        {
+            "id": "D_CrohnsDisease",
+            "label": "Crohn's Disease",
+            "type": "Disease"
+        },
+        {
+            "id": "D_ColorectalCancer",
+            "label": "Colorectal Cancer",
+            "type": "Disease"
+        },
+        {
+            "id": "D_IBS",
+            "label": "Irritable Bowel Syndrome (IBS)",
+            "type": "Disease"
+        },
+        {
+            "id": "D_Arthritis",
+            "label": "Arthritis",
+            "type": "Disease"
+        },
+        {
+            "id": "D_Asthma",
+            "label": "Asthma",
+            "type": "Disease"
+        },
+        {
+            "id": "D_RheumatoidArthritis",
+            "label": "Rheumatoid Arthritis (RA)",
+            "type": "Disease"
+        },
+        {
+            "id": "D_CoronaryArteryDisease",
+            "label": "Coronary Artery Disease",
+            "type": "Disease"
+        },
+        {
+            "id": "D_Stroke",
+            "label": "Stroke",
+            "type": "Disease"
+        },
+        {
+            "id": "D_Hypertension",
+            "label": "Hypertension",
+            "type": "Disease"
+        },
+        {
+            "id": "D_ThromboticDisorders",
+            "label": "Thrombotic Disorders",
+            "type": "Disease"
+        },
+        {
+            "id": "D_CKD",
+            "label": "Chronic Kidney Disease (CKD)",
+            "type": "Disease"
+        },
+        {
+            "id": "D_COVID19",
+            "label": "COVID-19",
+            "type": "Disease"
+        },
+        {
+            "id": "D_AcuteViralGastroenteritis",
+            "label": "Acute Viral Gastroenteritis",
+            "type": "Disease"
+        },
+        {
+            "id": "D_AntibioticAssociatedDiarrhea",
+            "label": "Antibiotic-Associated Diarrhea (AAD)",
+            "type": "Disease"
+        },
+        {
+            "id": "D_UpperRespiratoryTractInfections",
+            "label": "Upper Respiratory Tract Infections (URTI)",
+            "type": "Disease"
+        },
+        {
+            "id": "B_Inulin",
+            "label": "Inulin",
+            "type": "Prebiotic"
+        },
+        {
+            "id": "B_FOS",
+            "label": "Fructooligosaccharides (FOS)",
+            "type": "Prebiotic"
+        },
+        {
+            "id": "B_GOS",
+            "label": "Galactooligosaccharides (GOS)",
+            "type": "Prebiotic"
+        },
+        {
+            "id": "B_ResistantStarch",
+            "label": "Resistant Starch",
+            "type": "Prebiotic"
+        },
+        {
+            "id": "B_XOS",
+            "label": "Xylooligosaccharides (XOS)",
+            "type": "Prebiotic"
+        },
+        {
+            "id": "B_Oligofructose",
+            "label": "Oligofructose",
+            "type": "Prebiotic"
+        },
+        {
+            "id": "B_BetaGlucan",
+            "label": "Beta-glucan",
+            "type": "Prebiotic"
+        },
+        {
+            "id": "B_FODMAPs",
+            "label": "FODMAPs",
+            "type": "Prebiotic"
+        },
+        {
+            "id": "B_Lactobacillus",
+            "label": "Lactobacillus",
+            "type": "Probiotic"
+        },
+        {
+            "id": "B_Bifidobacterium",
+            "label": "Bifidobacterium",
+            "type": "Probiotic"
+        },
+        {
+            "id": "B_SaccharomycesBoulardii",
+            "label": "Saccharomyces boulardii",
+            "type": "Probiotic"
+        },
+        {
+            "id": "B_LactobacillusPlantarumDR7",
+            "label": "Lactobacillus plantarum DR7",
+            "type": "Probiotic"
+        },
+        {
+            "id": "B_LactobacillusRhamnosusGG",
+            "label": "Lactobacillus rhamnosus GG",
+            "type": "Probiotic"
+        },
+        {
+            "id": "B_LactobacillusPlantarum299v",
+            "label": "Lactobacillus plantarum 299v (Lp299v)",
+            "type": "Probiotic"
+        },
+        {
+            "id": "B_LactobacillusAcidophilus",
+            "label": "Lactobacillus acidophilus",
+            "type": "Probiotic"
+        },
+        {
+            "id": "B_LactobacillusReuteriV3401",
+            "label": "Lactobacillus reuteri V3401",
+            "type": "Probiotic"
+        },
+        {
+            "id": "B_EcologicBarrier",
+            "label": "Multispecies probiotic Ecologic\u00aeBarrier",
+            "type": "Probiotic"
+        },
+        {
+            "id": "B_LactobacillusFermentumMTCC5898",
+            "label": "Lactobacillus fermentum MTCC: 5898",
+            "type": "Probiotic"
+        },
+        {
+            "id": "B_LactobacillusCaseiShirota",
+            "label": "Lactobacillus casei Shirota",
+            "type": "Probiotic"
+        },
+        {
+            "id": "B_LactobacillusPlantarumZDYO4",
+            "label": "Lactobacillus plantarum ZDYO4",
+            "type": "Probiotic"
+        },
+        {
+            "id": "B_BifidobacteriumAnimalisLKM512",
+            "label": "Bifidobacterium animalis subsp. lactis LKM512",
+            "type": "Probiotic"
+        },
+        {
+            "id": "M_Microencapsulation",
+            "label": "Microencapsulation",
+            "type": "Methodology"
+        },
+        {
+            "id": "M_Immobilization",
+            "label": "Immobilization",
+            "type": "Methodology"
+        },
+        {
+            "id": "M_Metagenomics",
+            "label": "Metagenomics",
+            "type": "Methodology"
+        },
+        {
+            "id": "M_RCTs",
+            "label": "Randomized Controlled Trials (RCTs)",
+            "type": "Methodology"
+        },
+        {
+            "id": "S_ChicoryRoot",
+            "label": "Chicory Root",
+            "type": "Source"
+        },
+        {
+            "id": "S_Artichokes",
+            "label": "Artichokes",
+            "type": "Source"
+        },
+        {
+            "id": "S_Garlic",
+            "label": "Garlic",
+            "type": "Source"
+        },
+        {
+            "id": "S_Onions",
+            "label": "Onions",
+            "type": "Source"
+        },
+        {
+            "id": "S_Bananas",
+            "label": "Bananas",
+            "type": "Source"
+        },
+        {
+            "id": "S_WholeGrains",
+            "label": "Whole Grains",
+            "type": "Source"
+        },
+        {
+            "id": "S_Legumes",
+            "label": "Legumes",
+            "type": "Source"
+        },
+        {
+            "id": "S_FermentedFoods",
+            "label": "Fermented Foods",
+            "type": "Source"
+        },
+        {
+            "id": "S_Milk",
+            "label": "Milk",
+            "type": "Source"
+        },
+        {
+            "id": "S_Seaweed",
+            "label": "Seaweed",
+            "type": "Source"
+        },
+        {
+            "id": "S_BreastMilk",
+            "label": "Breast Milk",
+            "type": "Source"
+        },
+        {
+            "id": "S_SoyMilk",
+            "label": "Soy Milk",
+            "type": "Source"
+        },
+        {
+            "id": "S_AnnurcaApplePuree",
+            "label": "Lactofermented Annurca Apple Puree",
+            "type": "Source"
+        },
+        {
+            "id": "S_PurpleSweetPotatoYoghurt",
+            "label": "Probiotic-fermented Purple Sweet Potato Yoghurt",
+            "type": "Source"
+        },
+        {
+            "id": "S_GreenTeaExtract",
+            "label": "Green Tea Alcohol Extract",
+            "type": "Source"
+        },
+        {
+            "id": "S_Mushrooms",
+            "label": "Mushrooms",
+            "type": "Source"
+        },
+        {
+            "id": "S_CocoaFibers",
+            "label": "Cocoa Fibers",
+            "type": "Source"
+        },
+        {
+            "id": "S_LithothamniumMuelleri",
+            "label": "Lithothamnium muelleri",
+            "type": "Source"
+        },
+        {
+            "id": "S_SteviaRebaudiana",
+            "label": "Stevia rebaudiana",
+            "type": "Source"
+        },
+        {
+            "id": "S_AloeVera",
+            "label": "Aloe Vera",
+            "type": "Source"
+        },
+        {
+            "id": "S_CoffeeBeans",
+            "label": "Dark Roasted Coffee Beans",
+            "type": "Source"
+        },
+        {
+            "id": "S_CashewApplePowder",
+            "label": "Cashew Apple Powder",
+            "type": "Source"
+        },
+        {
+            "id": "S_AgaveFructans",
+            "label": "Agave Fructans",
+            "type": "Source"
+        },
+        {
+            "id": "S_CitrusPeel",
+            "label": "Citrus Peel",
+            "type": "Source"
+        },
+        {
+            "id": "S_Potato",
+            "label": "Potato",
+            "type": "Source"
+        },
+        {
+            "id": "S_CerealGrains",
+            "label": "Cereal Grains",
+            "type": "Source"
+        },
+        {
+            "id": "S_AgriculturalResidues",
+            "label": "Agricultural Residues",
+            "type": "Source"
+        },
+        {
+            "id": "S_Honey",
+            "label": "Honey",
+            "type": "Source"
+        },
+        {
+            "id": "S_Rye",
+            "label": "Rye",
+            "type": "Source"
+        },
+        {
+            "id": "S_Salsify",
+            "label": "Salsify",
+            "type": "Source"
+        },
+        {
+            "id": "S_Tomato",
+            "label": "Tomato",
+            "type": "Source"
+        },
+        {
+            "id": "S_Asparagus",
+            "label": "Asparagus",
+            "type": "Source"
+        },
+        {
+            "id": "S_SugarBeet",
+            "label": "Sugar Beet",
+            "type": "Source"
+        },
+        {
+            "id": "S_Wheat",
+            "label": "Wheat",
+            "type": "Source"
+        },
+        {
+            "id": "S_BambooShoots",
+            "label": "Bamboo Shoots",
+            "type": "Source"
+        },
+        {
+            "id": "S_Mustard",
+            "label": "Mustard",
+            "type": "Source"
+        },
+        {
+            "id": "S_Chickpeas",
+            "label": "Chickpeas",
+            "type": "Source"
+        },
+        {
+            "id": "S_Oats",
+            "label": "Oats",
+            "type": "Source"
+        },
+        {
+            "id": "S_Barley",
+            "label": "Barley",
+            "type": "Source"
+        },
+        {
+            "id": "S_Corn",
+            "label": "Corn",
+            "type": "Source"
+        },
+        {
+            "id": "S_Rice",
+            "label": "Rice",
+            "type": "Source"
+        },
+        {
+            "id": "S_YaconFlour",
+            "label": "Yacon Flour",
+            "type": "Source"
+        },
+        {
+            "id": "S_GreenDwarfBananaFlour",
+            "label": "Green Dwarf Banana Flour",
+            "type": "Source"
+        },
+        {
+            "id": "S_WheatTaroCompositeFlour",
+            "label": "Wheat-Taro Composite Flour",
+            "type": "Source"
+        },
+        {
+            "id": "S_PassionFruitJuice",
+            "label": "Passion Fruit Juice",
+            "type": "Source"
+        },
+        {
+            "id": "S_FermentedPomegranateJuice",
+            "label": "Fermented Pomegranate Juice",
+            "type": "Source"
+        },
+        {
+            "id": "S_GasseriPA3Yoghurt",
+            "label": "L. gasseri PA-3 Yoghurt",
+            "type": "Source"
+        },
+        {
+            "id": "Sym_Selemax",
+            "label": "Selemax (S. cerevisiae + Organic Selenium)",
+            "type": "Symbiotic"
+        },
+        {
+            "id": "R_ACE2",
+            "label": "ACE2 Receptor",
+            "type": "Receptor"
+        },
+        {
+            "id": "R_TLRs",
+            "label": "Toll-like Receptors (TLRs)",
+            "type": "Receptor"
+        },
+        {
+            "id": "R_NLRs",
+            "label": "Nod-like Receptors (NLRs)",
+            "type": "Receptor"
+        },
+        {
+            "id": "R_PPARg",
+            "label": "PPAR-\u03b3 Receptor",
+            "type": "Receptor"
+        },
+        {
+            "id": "R_GPR43",
+            "label": "GPR43 Receptor",
+            "type": "Receptor"
+        },
+        {
+            "id": "E_CholiloglicinHydrolase",
+            "label": "Choliloglicin Hydrolase",
+            "type": "Enzyme"
+        },
+        {
+            "id": "E_HMGCR",
+            "label": "HMG-CoA Reductase (HMGCR)",
+            "type": "Enzyme"
+        },
+        {
+            "id": "E_Inulinase",
+            "label": "Inulinase",
+            "type": "Enzyme"
+        },
+        {
+            "id": "E_BetaGalactosidase",
+            "label": "Beta-galactosidase",
+            "type": "Enzyme"
+        },
+        {
+            "id": "E_HDACs",
+            "label": "Histone Deacetylases (HDACs)",
+            "type": "Enzyme"
+        },
+        {
+            "id": "C_IFNg",
+            "label": "Interferon-gamma (IFN-\u03b3)",
+            "type": "Cytokine"
+        },
+        {
+            "id": "C_TNFa",
+            "label": "Tumor Necrosis Factor-alpha (TNF-\u03b1)",
+            "type": "Cytokine"
+        },
+        {
+            "id": "C_IL10",
+            "label": "Interleukin-10 (IL-10)",
+            "type": "Cytokine"
+        },
+        {
+            "id": "C_IL6",
+            "label": "Interleukin-6 (IL-6)",
+            "type": "Cytokine"
+        },
+        {
+            "id": "C_IL4",
+            "label": "Interleukin-4 (IL-4)",
+            "type": "Cytokine"
+        },
+        {
+            "id": "C_IL8",
+            "label": "Interleukin-8 (IL-8)",
+            "type": "Cytokine"
+        },
+        {
+            "id": "Cell_Treg",
+            "label": "T-regulatory Cells (Treg)",
+            "type": "Cell Type"
+        },
+        {
+            "id": "Cell_Macrophages",
+            "label": "Macrophages",
+            "type": "Cell Type"
+        },
+        {
+            "id": "Cell_EpithelialCells",
+            "label": "Epithelial Cells",
+            "type": "Cell Type"
+        },
+        {
+            "id": "Cell_CD4TCells",
+            "label": "CD4+ T Cells",
+            "type": "Cell Type"
+        },
+        {
+            "id": "Cell_PolymorphonuclearCells",
+            "label": "Polymorphonuclear Cells",
+            "type": "Cell Type"
+        },
+        {
+            "id": "Cell_FoamyCells",
+            "label": "Foamy Cells",
+            "type": "Cell Type"
+        },
+        {
+            "id": "Cell_Cardiomyocytes",
+            "label": "Cardiomyocytes",
+            "type": "Cell Type"
+        },
+        {
+            "id": "Cell_IgAcoatedBacteria",
+            "label": "IgA-coated Bacteria",
+            "type": "Cell Type"
+        },
+        {
+            "id": "Cell_Hemocytes",
+            "label": "Hemocytes",
+            "type": "Cell Type"
+        },
+        {
+            "id": "Cell_Splenocytes",
+            "label": "Splenocytes",
+            "type": "Cell Type"
+        },
+        {
+            "id": "Cell_Thymocytes",
+            "label": "Thymocytes",
+            "type": "Cell Type"
+        },
+        {
+            "id": "Cell_RBCs",
+            "label": "RBCs",
+            "type": "Cell Type"
+        },
+        {
+            "id": "Cell_WBCs",
+            "label": "WBCs",
+            "type": "Cell Type"
+        },
+        {
+            "id": "Cell_IgAplusCells",
+            "label": "IgA(+) Cells",
+            "type": "Cell Type"
+        },
+        {
+            "id": "Cell_NaturalKillerCells",
+            "label": "Natural Killer Cells",
+            "type": "Cell Type"
+        },
+        {
+            "id": "Cell_Erythrocytes",
+            "label": "Erythrocytes",
+            "type": "Cell Type"
+        },
+        {
+            "id": "Chem_Acetate",
+            "label": "Acetate",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_Butyrate",
+            "label": "Butyrate",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_Propionate",
+            "label": "Propionate",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_LacticAcid",
+            "label": "Lactic Acid",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_HydrogenPeroxide",
+            "label": "Hydrogen Peroxide",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_Homocysteine",
+            "label": "Homocysteine",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_Selenium",
+            "label": "Selenium",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_Choline",
+            "label": "Choline",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_Carnitine",
+            "label": "Carnitine",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_Trimethylamine",
+            "label": "Trimethylamine (TMA)",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_IndoxylSulphate",
+            "label": "Indoxyl Sulphate (IS)",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_pCresylSulphate",
+            "label": "p-cresyl Sulphate (PCS)",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_Nisin",
+            "label": "Nisin",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_Nystatin",
+            "label": "Nystatin",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_Steroids",
+            "label": "Steroids",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_MembraneCholesterol",
+            "label": "Membrane Cholesterol",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_LipidII",
+            "label": "Lipid II",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_Peptidoglycan",
+            "label": "Peptidoglycan",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_Diacetyl",
+            "label": "Diacetyl",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_HydrochloricAcid",
+            "label": "Hydrochloric Acid",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_BileSalts",
+            "label": "Bile Salts",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_GastricJuice",
+            "label": "Gastric Juice",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_BileAcids",
+            "label": "Bile Acids",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_PrimaryBileAcids",
+            "label": "Primary Bile Acids",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_BloodCholesterol",
+            "label": "Blood Cholesterol",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_ADP",
+            "label": "ADP",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_OxonicAcid",
+            "label": "Oxonic Acid",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_Inosine",
+            "label": "Inosine",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_TrifluoroaceticAcid",
+            "label": "Trifluoroacetic Acid",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_HydrogenPeroxide_Khangwal",
+            "label": "Hydrogen Peroxide (Khangwal & Shukla)",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_Sucrose",
+            "label": "Sucrose",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_Lipopolysaccharides",
+            "label": "Lipopolysaccharides (LPS)",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_Urea",
+            "label": "Urea",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_CMPF",
+            "label": "3-carboxylic acid 4-methyl-5-propyl-2-furan propionic (CMPF)",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_2FL",
+            "label": "2'-fucosyllactose (2'-FL)",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_LNnT",
+            "label": "Lacto-N-neotetraose (LNnT)",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_Rosuvastatin",
+            "label": "Rosuvastatin",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_Aspirin",
+            "label": "Aspirin",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_DextranSodiumSulfate",
+            "label": "Dextran Sodium Sulfate (DSS)",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_MannoseMonomers",
+            "label": "Mannose Monomers",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_CalciumCarbonate",
+            "label": "Calcium Carbonate",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_SteviolGlycosides",
+            "label": "Steviol Glycosides",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_Fructose",
+            "label": "Fructose",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_Mannitol",
+            "label": "Mannitol",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_Maltodextrin",
+            "label": "Maltodextrin",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_Alginate",
+            "label": "Alginate",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_Chitosan",
+            "label": "Chitosan",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_SoyProteinIsolate",
+            "label": "Soy Protein Isolate (SPI)",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_AcylatedSoyProtein",
+            "label": "Acylated Soy Protein (SPA)",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_AlphaGlucans",
+            "label": "Alpha-glucans",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_Amylose",
+            "label": "Amylose",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_Amylopectin",
+            "label": "Amylopectin",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_FreeFattyAcids",
+            "label": "Free Fatty Acids",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_Lysophopholipids",
+            "label": "Lysophopholipids",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_OreganoExtract",
+            "label": "Oregano Extract",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_ModifiedStarch",
+            "label": "Modified Starch",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_AlteredStarch",
+            "label": "Altered Starch",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_Pectin",
+            "label": "Pectin",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_Gums",
+            "label": "Gums",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_Lignin",
+            "label": "Lignin",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_Lactate",
+            "label": "Lactate",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_Glucose",
+            "label": "Glucose",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_OleicAcid",
+            "label": "Oleic Acid",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_ArachidicAcid",
+            "label": "Arachidic Acid",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_BehenicAcid",
+            "label": "Behenic Acid",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_Flavonoids",
+            "label": "Flavonoids",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_NitricOxide",
+            "label": "Nitric Oxide",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_PhenolicCompounds",
+            "label": "Phenolic Compounds",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_Immunoglobulins",
+            "label": "Immunoglobulins",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_IgM",
+            "label": "IgM",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_IgG",
+            "label": "IgG",
+            "type": "Chemical"
+        },
+        {
+            "id": "Chem_sIgA",
+            "label": "Secretory IgA (sIgA)",
+            "type": "Chemical"
+        }
+    ],
+    "graph_edges": [
+        {
+            "source": "P_Sonal2024",
+            "target": "C_Prebiotics",
+            "relation": "describes"
+        },
+        {
+            "source": "P_Sonal2024",
+            "target": "C_HumanHealth",
+            "relation": "highlights importance for"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_GutMicrobiota",
+            "relation": "nourishes"
+        },
+        {
+            "source": "C_GutMicrobiota",
+            "target": "C_HumanHealth",
+            "relation": "influences"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_Digestion",
+            "relation": "improves"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_ImmuneSystem",
+            "relation": "enhances"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_Inflammation",
+            "relation": "reduces"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_BloodPressure",
+            "relation": "regulates"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_CholesterolLevels",
+            "relation": "regulates"
+        },
+        {
+            "source": "B_Inulin",
+            "target": "C_Prebiotics",
+            "relation": "is a type of"
+        },
+        {
+            "source": "B_FOS",
+            "target": "C_Prebiotics",
+            "relation": "is a type of"
+        },
+        {
+            "source": "B_GOS",
+            "target": "C_Prebiotics",
+            "relation": "is a type of"
+        },
+        {
+            "source": "C_GutMicrobiota",
+            "target": "D_Obesity",
+            "relation": "associated with reduced risk of"
+        },
+        {
+            "source": "C_GutMicrobiota",
+            "target": "D_Diabetes",
+            "relation": "associated with reduced risk of"
+        },
+        {
+            "source": "C_GutMicrobiota",
+            "target": "D_InflammatoryDisorders",
+            "relation": "associated with reduced risk of"
+        },
+        {
+            "source": "P_KhangwalShukla2019",
+            "target": "C_Prebiotics",
+            "relation": "reviews"
+        },
+        {
+            "source": "P_KhangwalShukla2019",
+            "target": "C_Immunomodulation",
+            "relation": "reviews"
+        },
+        {
+            "source": "P_KhangwalShukla2019",
+            "target": "C_NutrientAbsorption",
+            "relation": "reviews"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_Immunomodulation",
+            "relation": "contributes to"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_NutrientAbsorption",
+            "relation": "enhances"
+        },
+        {
+            "source": "M_Microencapsulation",
+            "target": "C_Prebiotics",
+            "relation": "is a transmission strategy for"
+        },
+        {
+            "source": "M_Immobilization",
+            "target": "C_Prebiotics",
+            "relation": "is a transmission strategy for"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "D_IBD",
+            "relation": "modulates gut microflora in"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "D_Diabetes",
+            "relation": "modulates gut microflora in"
+        },
+        {
+            "source": "C_SCFAs",
+            "target": "C_Inflammation",
+            "relation": "reduces"
+        },
+        {
+            "source": "Chem_Butyrate",
+            "target": "C_SCFAs",
+            "relation": "is a type of"
+        },
+        {
+            "source": "Chem_Acetate",
+            "target": "C_SCFAs",
+            "relation": "is a type of"
+        },
+        {
+            "source": "Chem_Propionate",
+            "target": "C_SCFAs",
+            "relation": "is a type of"
+        },
+        {
+            "source": "P_Vieira2013",
+            "target": "C_Probiotics",
+            "relation": "reviews"
+        },
+        {
+            "source": "P_Vieira2013",
+            "target": "C_Prebiotics",
+            "relation": "reviews"
+        },
+        {
+            "source": "P_Vieira2013",
+            "target": "C_Synbiotics",
+            "relation": "reviews"
+        },
+        {
+            "source": "C_GutMicrobiota",
+            "target": "C_IntestinalHomeostasis",
+            "relation": "is essential for"
+        },
+        {
+            "source": "C_GutDysbiosis",
+            "target": "D_IBD",
+            "relation": "related to"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "D_AcuteViralGastroenteritis",
+            "relation": "treats/prevents"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "D_AntibioticAssociatedDiarrhea",
+            "relation": "treats/prevents"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "D_IBD",
+            "relation": "treats/prevents"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_ImmuneSystem",
+            "relation": "modulates"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_GutMicrobiota",
+            "relation": "stimulates growth of"
+        },
+        {
+            "source": "C_SCFAs",
+            "target": "C_Inflammation",
+            "relation": "reduces"
+        },
+        {
+            "source": "P_Olas2020",
+            "target": "C_Probiotics",
+            "relation": "reviews role in"
+        },
+        {
+            "source": "P_Olas2020",
+            "target": "C_Prebiotics",
+            "relation": "reviews role in"
+        },
+        {
+            "source": "P_Olas2020",
+            "target": "C_Synbiotics",
+            "relation": "reviews role in"
+        },
+        {
+            "source": "P_Olas2020",
+            "target": "D_CVD",
+            "relation": "focuses on"
+        },
+        {
+            "source": "C_GutMicrobiota",
+            "target": "D_CVD",
+            "relation": "associated with"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_CholesterolLevels",
+            "relation": "lowers"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_OxidativeStress",
+            "relation": "reduces"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_Inflammation",
+            "relation": "reduces"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_BloodPressure",
+            "relation": "reduces"
+        },
+        {
+            "source": "C_TMAO",
+            "target": "D_CVD",
+            "relation": "correlated with increased risk of"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_TMAO",
+            "relation": "modulates levels of"
+        },
+        {
+            "source": "C_UricAcidLevel",
+            "target": "D_CKD",
+            "relation": "associated with"
+        },
+        {
+            "source": "C_UricAcidLevel",
+            "target": "D_CVD",
+            "relation": "associated with"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_UricAcidLevel",
+            "relation": "modulates levels of"
+        },
+        {
+            "source": "C_Synbiotics",
+            "target": "C_UricAcidLevel",
+            "relation": "modulates levels of"
+        },
+        {
+            "source": "P_SantiestebanLopez2025",
+            "target": "C_Probiotics",
+            "relation": "investigates role in"
+        },
+        {
+            "source": "P_SantiestebanLopez2025",
+            "target": "C_Prebiotics",
+            "relation": "investigates role in"
+        },
+        {
+            "source": "P_SantiestebanLopez2025",
+            "target": "D_COVID19",
+            "relation": "focuses on"
+        },
+        {
+            "source": "C_GutMicrobiota",
+            "target": "D_COVID19",
+            "relation": "plays critical role in response to"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "D_COVID19",
+            "relation": "reduces severity of symptoms for"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "D_COVID19",
+            "relation": "reduces severity of symptoms for"
+        },
+        {
+            "source": "C_GutLungAxis",
+            "target": "D_COVID19",
+            "relation": "is relevant to"
+        },
+        {
+            "source": "B_LactobacillusPlantarumDR7",
+            "target": "D_UpperRespiratoryTractInfections",
+            "relation": "improves outcomes for"
+        },
+        {
+            "source": "B_LactobacillusPlantarumDR7",
+            "target": "C_Inflammation",
+            "relation": "reduces"
+        },
+        {
+            "source": "B_LactobacillusPlantarumDR7",
+            "target": "C_OxidativeStress",
+            "relation": "reduces"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_AntimicrobialSubstances",
+            "relation": "produces"
+        },
+        {
+            "source": "C_Bacteriocins",
+            "target": "C_AntimicrobialSubstances",
+            "relation": "is a type of"
+        },
+        {
+            "source": "Chem_Nisin",
+            "target": "C_Bacteriocins",
+            "relation": "is a type of"
+        },
+        {
+            "source": "Chem_Nisin",
+            "target": "R_ACE2",
+            "relation": "binds with"
+        },
+        {
+            "source": "R_ACE2",
+            "target": "D_COVID19",
+            "relation": "is target for SARS-CoV-2 in"
+        },
+        {
+            "source": "Chem_Nystatin",
+            "target": "Chem_Steroids",
+            "relation": "binds with"
+        },
+        {
+            "source": "Chem_Nystatin",
+            "target": "Chem_MembraneCholesterol",
+            "relation": "eliminates"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_GutMicrobiota",
+            "relation": "enhances balance of"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_GutMicrobiota",
+            "relation": "restores balance of"
+        },
+        {
+            "source": "C_GutDysbiosis",
+            "target": "D_COVID19",
+            "relation": "makes susceptible to"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_ImmuneSystem",
+            "relation": "modulates"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_ImmuneSystem",
+            "relation": "modulates"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_Inflammation",
+            "relation": "reduces"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_Inflammation",
+            "relation": "reduces"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_Cytokines",
+            "relation": "modulates"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_Cytokines",
+            "relation": "modulates"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_NutrientAbsorption",
+            "relation": "improves"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_NutrientAbsorption",
+            "relation": "improves"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_SCFAs",
+            "relation": "increases production of"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_SCFAs",
+            "relation": "increases production of"
+        },
+        {
+            "source": "C_SCFAs",
+            "target": "Cell_Treg",
+            "relation": "regulates homeostasis of"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "Cell_Treg",
+            "relation": "increases"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "Cell_Treg",
+            "relation": "increases"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_AntiviralDefenses",
+            "relation": "enhances"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_AntiviralDefenses",
+            "relation": "enhances"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_BarrierFunction",
+            "relation": "improves"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_BarrierFunction",
+            "relation": "improves"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_CholesterolLevels",
+            "relation": "lowers"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_CholesterolLevels",
+            "relation": "lowers"
+        },
+        {
+            "source": "C_Synbiotics",
+            "target": "C_CholesterolLevels",
+            "relation": "lowers"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_BloodPressure",
+            "relation": "reduces"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_BloodPressure",
+            "relation": "reduces"
+        },
+        {
+            "source": "C_Synbiotics",
+            "target": "C_BloodPressure",
+            "relation": "reduces"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_OxidativeStress",
+            "relation": "reduces"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_OxidativeStress",
+            "relation": "reduces"
+        },
+        {
+            "source": "C_Synbiotics",
+            "target": "C_OxidativeStress",
+            "relation": "reduces"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_TMAO",
+            "relation": "reduces"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_TMAO",
+            "relation": "reduces"
+        },
+        {
+            "source": "C_Synbiotics",
+            "target": "C_TMAO",
+            "relation": "reduces"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_UricAcidLevel",
+            "relation": "reduces"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_UricAcidLevel",
+            "relation": "reduces"
+        },
+        {
+            "source": "C_Synbiotics",
+            "target": "C_UricAcidLevel",
+            "relation": "reduces"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "D_CVD",
+            "relation": "prevents/treats"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "D_CVD",
+            "relation": "prevents/treats"
+        },
+        {
+            "source": "C_Synbiotics",
+            "target": "D_CVD",
+            "relation": "prevents/treats"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "D_COVID19",
+            "relation": "improves patient outcomes for"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "D_COVID19",
+            "relation": "improves patient outcomes for"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_GutMicrobiota",
+            "relation": "modulates"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_GutMicrobiota",
+            "relation": "modulates"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_Immunomodulation",
+            "relation": "exerts"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_Immunomodulation",
+            "relation": "exerts"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_AntimicrobialSubstances",
+            "relation": "produces"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_AntimicrobialSubstances",
+            "relation": "supports production of"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_CellAdhesion",
+            "relation": "competes for"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_NutrientCompetition",
+            "relation": "engages in"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_MembranePermeability",
+            "relation": "affects"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_LipidMetabolism",
+            "relation": "positively affects"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_CarbohydrateMetabolism",
+            "relation": "positively affects"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_GlucoseHomeostasis",
+            "relation": "positively affects"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_Atherogenesis",
+            "relation": "inhibits"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_Thrombosis",
+            "relation": "inhibits"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_HyperactivationOfBloodPlatelets",
+            "relation": "reduces"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_AntithrombinLevels",
+            "relation": "modulates"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_CoagulationSystem",
+            "relation": "influences"
+        },
+        {
+            "source": "C_TMAO",
+            "target": "C_Atherogenesis",
+            "relation": "promotes"
+        },
+        {
+            "source": "C_TMAO",
+            "target": "C_Thrombosis",
+            "relation": "may be involved in"
+        },
+        {
+            "source": "C_TMAO",
+            "target": "C_BloodPressure",
+            "relation": "regulates"
+        },
+        {
+            "source": "C_TMAO",
+            "target": "Cell_Macrophages",
+            "relation": "promotes recruitment of"
+        },
+        {
+            "source": "C_TMAO",
+            "target": "Cell_FoamyCells",
+            "relation": "promotes production of"
+        },
+        {
+            "source": "C_TMAO",
+            "target": "C_Inflammation",
+            "relation": "promotes"
+        },
+        {
+            "source": "C_UricAcidLevel",
+            "target": "C_OxidativeStress",
+            "relation": "associated with"
+        },
+        {
+            "source": "C_UricAcidLevel",
+            "target": "C_Inflammation",
+            "relation": "associated with"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_AntitumorProperties",
+            "relation": "possesses"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_Hypocholesterolemia",
+            "relation": "possesses"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_LungBarrierFunction",
+            "relation": "improves"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_AntiviralDefenses",
+            "relation": "enhances"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_CytokineStorm",
+            "relation": "mitigates"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_CytokineStorm",
+            "relation": "mitigates"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_PatientOutcomes",
+            "relation": "improves"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_PatientOutcomes",
+            "relation": "improves"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_Symptoms",
+            "relation": "reduces severity of"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_Symptoms",
+            "relation": "reduces severity of"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_AlteredMicrobiota",
+            "relation": "improves"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_AlteredMicrobiota",
+            "relation": "improves"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_Immunoglobulins",
+            "relation": "increases levels of"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_Immunoglobulins",
+            "relation": "increases levels of"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "Chem_IgM",
+            "relation": "increases levels of"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "Chem_IgG",
+            "relation": "increases levels of"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "Chem_sIgA",
+            "relation": "increases levels of"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_AdverseEvents",
+            "relation": "may cause"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_AdverseEvents",
+            "relation": "may cause"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_EconomicBenefits",
+            "relation": "contributes to"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_EconomicBenefits",
+            "relation": "contributes to"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_PublicHealthInterventions",
+            "relation": "is part of"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_PublicHealthInterventions",
+            "relation": "is part of"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_DietaryGuidelines",
+            "relation": "integrated into"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_DietaryGuidelines",
+            "relation": "integrated into"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_LaborProductivity",
+            "relation": "increases"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_LaborProductivity",
+            "relation": "increases"
+        },
+        {
+            "source": "C_GutMicrobiota",
+            "target": "C_MetabolicOrgan",
+            "relation": "is considered a"
+        },
+        {
+            "source": "C_GutMicrobiota",
+            "target": "C_Physiology",
+            "relation": "influences"
+        },
+        {
+            "source": "C_GutMicrobiota",
+            "target": "C_Nutrition",
+            "relation": "influences"
+        },
+        {
+            "source": "C_GutMicrobiota",
+            "target": "C_IntestinalTransit",
+            "relation": "regulates"
+        },
+        {
+            "source": "C_GutMicrobiota",
+            "target": "C_EssentialAminoAcids",
+            "relation": "synthesizes"
+        },
+        {
+            "source": "C_GutMicrobiota",
+            "target": "C_Vitamins",
+            "relation": "synthesizes"
+        },
+        {
+            "source": "C_GutMicrobiota",
+            "target": "C_PolyunsaturatedFattyAcids",
+            "relation": "synthesizes"
+        },
+        {
+            "source": "C_GutMicrobiota",
+            "target": "C_LactoseDigestion",
+            "relation": "promotes"
+        },
+        {
+            "source": "C_GutMicrobiota",
+            "target": "C_SolubleDietaryFiber",
+            "relation": "enables utilization of"
+        },
+        {
+            "source": "C_GutMicrobiota",
+            "target": "C_Minerals",
+            "relation": "facilitates absorption of"
+        },
+        {
+            "source": "C_GutMicrobiota",
+            "target": "C_ImmuneSystemFunction",
+            "relation": "plays pivotal role in"
+        },
+        {
+            "source": "C_GutMicrobiota",
+            "target": "C_MentalWellBeing",
+            "relation": "plays pivotal role in"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_ComplexCarbohydrates",
+            "relation": "aids breakdown of"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_InsulinSensitivity",
+            "relation": "improves"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_ImmuneResponse",
+            "relation": "modulates"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_ImmuneResponse",
+            "relation": "modulates"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_ProinflammatoryMediators",
+            "relation": "reduces"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_ProinflammatoryMediators",
+            "relation": "reduces"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_SodiumAbsorption",
+            "relation": "stimulates"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_IntestinalPermeability",
+            "relation": "decreases"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_PathogenicMicroorganisms",
+            "relation": "decreases invasion of"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_IntestinalDefense",
+            "relation": "improves"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_Microenvironment",
+            "relation": "instigates"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_Bioavailability",
+            "relation": "enhances"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_Bioavailability",
+            "relation": "enhances"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_BioAccessibility",
+            "relation": "enhances"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_BioAccessibility",
+            "relation": "enhances"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_HostGutMicrofloraSymbioticRelationships",
+            "relation": "clarifies"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_HostGutMicrofloraSymbioticRelationships",
+            "relation": "clarifies"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_GeneticFactors",
+            "relation": "influenced by"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_EpigeneticFactors",
+            "relation": "influenced by"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_EnvironmentalFactors",
+            "relation": "influenced by"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_Polymorphisms",
+            "relation": "creates rapport between"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_Hyperinsulinemia",
+            "relation": "reduces risk of"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_InsulinResistance",
+            "relation": "reduces risk of"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_GlucoseMetabolism",
+            "relation": "modulates"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_MicrobiomeGutBrainAxis",
+            "relation": "modulates"
+        },
+        {
+            "source": "C_IBS",
+            "target": "C_NervousSystem",
+            "relation": "linked with"
+        },
+        {
+            "source": "C_IBS",
+            "target": "C_MucosalBarrierSystem",
+            "relation": "linked with"
+        },
+        {
+            "source": "C_IBS",
+            "target": "C_Neurotransmitters",
+            "relation": "linked with"
+        },
+        {
+            "source": "C_IBS",
+            "target": "C_Hormones",
+            "relation": "linked with"
+        },
+        {
+            "source": "C_IBS",
+            "target": "C_VisceralHypersensitivity",
+            "relation": "involves"
+        },
+        {
+            "source": "C_IBS",
+            "target": "C_FunctionalDyspepsia",
+            "relation": "involves"
+        },
+        {
+            "source": "C_IBS",
+            "target": "C_Stress",
+            "relation": "involves"
+        },
+        {
+            "source": "C_IBS",
+            "target": "C_Anxiety",
+            "relation": "involves"
+        },
+        {
+            "source": "C_IBS",
+            "target": "C_Depression",
+            "relation": "involves"
+        },
+        {
+            "source": "C_IBS",
+            "target": "C_CircadianRhythm",
+            "relation": "involves"
+        },
+        {
+            "source": "C_TMAO",
+            "target": "Chem_Choline",
+            "relation": "produced from"
+        },
+        {
+            "source": "C_TMAO",
+            "target": "Chem_Carnitine",
+            "relation": "produced from"
+        },
+        {
+            "source": "Chem_Choline",
+            "target": "Chem_Trimethylamine",
+            "relation": "converted to"
+        },
+        {
+            "source": "Chem_Carnitine",
+            "target": "Chem_Trimethylamine",
+            "relation": "converted to"
+        },
+        {
+            "source": "Chem_Trimethylamine",
+            "target": "C_TMAO",
+            "relation": "oxidized to"
+        },
+        {
+            "source": "C_UricAcidLevel",
+            "target": "Chem_Homocysteine",
+            "relation": "is related to"
+        },
+        {
+            "source": "C_UricAcidLevel",
+            "target": "Chem_IndoxylSulphate",
+            "relation": "is related to"
+        },
+        {
+            "source": "C_UricAcidLevel",
+            "target": "Chem_pCresylSulphate",
+            "relation": "is related to"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "E_CholiloglicinHydrolase",
+            "relation": "increases activity of"
+        },
+        {
+            "source": "E_CholiloglicinHydrolase",
+            "target": "Chem_BileAcids",
+            "relation": "hydrolyzes"
+        },
+        {
+            "source": "Chem_BileAcids",
+            "target": "Chem_PrimaryBileAcids",
+            "relation": "releases"
+        },
+        {
+            "source": "Chem_PrimaryBileAcids",
+            "target": "Chem_BloodCholesterol",
+            "relation": "replaced by bile from"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_CholesterolAssimilation",
+            "relation": "drives"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_LipidPeroxidation",
+            "relation": "inhibits"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_HyperactivationOfBloodPlatelets",
+            "relation": "reduces"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_AntithrombinLevels",
+            "relation": "modulates"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_CoagulationSystem",
+            "relation": "influences"
+        },
+        {
+            "source": "C_TMAO",
+            "target": "C_ProatherogenicRiskFactors",
+            "relation": "is a"
+        },
+        {
+            "source": "C_UricAcidLevel",
+            "target": "C_ProatherogenicRiskFactors",
+            "relation": "is a"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "Cell_FoamyCells",
+            "relation": "reduces production of"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "Cell_Cardiomyocytes",
+            "relation": "attenuates apoptosis of"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_MembraneFluidity",
+            "relation": "improves"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_AlteredMicrobiota",
+            "relation": "improves"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_AlteredMicrobiota",
+            "relation": "improves"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_HostMicroflora",
+            "relation": "alters"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_Colonization",
+            "relation": "achieves"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_Implantation",
+            "relation": "achieves"
+        },
+        {
+            "source": "C_Bacteriocins",
+            "target": "C_PhysiologicalActivity",
+            "relation": "depends on"
+        },
+        {
+            "source": "C_Bacteriocins",
+            "target": "C_MacromoleculeSynthesis",
+            "relation": "decreases"
+        },
+        {
+            "source": "C_Bacteriocins",
+            "target": "C_CellDeath",
+            "relation": "leads to"
+        },
+        {
+            "source": "Chem_Nystatin",
+            "target": "C_CellDeath",
+            "relation": "leads to"
+        },
+        {
+            "source": "Chem_Nisin",
+            "target": "C_CellDeath",
+            "relation": "leads to"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_AntitumorProperties",
+            "relation": "possesses"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_Hypocholesterolemia",
+            "relation": "possesses"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_LungBarrierFunction",
+            "relation": "improves"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_AntiviralDefenses",
+            "relation": "enhances"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_BacterialMetabolism",
+            "relation": "affects"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_ToxinProduction",
+            "relation": "affects"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_Immunostimulation",
+            "relation": "induces"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_MicrobialTranslocation",
+            "relation": "prevents"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_BacterialFermentation",
+            "relation": "modifies gut microbiota through"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_ColonyGrowth",
+            "relation": "halts"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_CellDamage",
+            "relation": "reduces"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_CellDamage",
+            "relation": "reduces"
+        },
+        {
+            "source": "C_Probiotics",
+            "target": "C_PlasmaPeroxidation",
+            "relation": "reduces"
+        },
+        {
+            "source": "C_Prebiotics",
+            "target": "C_PlasmaPeroxidation",
+            "relation": "reduces"
+        },
+        {
+            "source": "M_RCTs",
+            "target": "C_SampleSize",
+            "relation": "requires adequate"
+        },
+        {
+            "source": "M_RCTs",
+            "target": "C_SelectionBias",
+            "relation": "minimizes"
+        },
+        {
+            "source": "M_RCTs",
+            "target": "C_ConfoundingBias",
+            "relation": "minimizes"
+        },
+        {
+            "source": "M_RCTs",
+            "target": "C_PublicationBias",
+            "relation": "minimizes"
+        },
+        {
+            "source": "M_OmicsAnalyses",
+            "target": "C_DerivedMetabolites",
+            "relation": "explores interactions with"
+        },
+        {
+            "source": "M_OmicsAnalyses",
+            "target": "C_GutMicrobiota",
+            "relation": "explores interactions with"
+        },
+        {
+            "source": "M_OmicsAnalyses",
+            "target": "C_ImmuneResponse",
+            "relation": "explores interactions with"
+        }
+    ],
+    "networkx_metrics": {
+        "contradictions": [
+            {
+                "description": "Conflicting findings on the effect of probiotics on TMAO levels. Some studies show no significant change, while others report a decrease.",
+                "paper_ids": [
+                    "P_Olas2020"
+                ]
+            },
+            {
+                "description": "Conflicting findings on the effect of probiotics and synbiotics on uric acid levels. Some studies show a reduction, while others report no influence or even elevation.",
+                "paper_ids": [
+                    "P_Olas2020"
+                ]
+            }
+        ],
+        "clusters": [
+            {
+                "name": "Gut Health & Microbiota",
+                "node_ids": [
+                    "C_GutMicrobiota",
+                    "C_IntestinalHomeostasis",
+                    "C_GutDysbiosis",
+                    "C_MetabolicOrgan",
+                    "C_IntestinalTransit",
+                    "C_LactoseDigestion",
+                    "C_SolubleDietaryFiber",
+                    "C_MicrobiomeGutBrainAxis",
+                    "C_AlteredMicrobiota",
+                    "C_HostMicroflora",
+                    "C_Colonization",
+                    "C_Implantation",
+                    "C_BacterialMetabolism",
+                    "C_MicrobialTranslocation",
+                    "C_BacterialFermentation",
+                    "C_FecalMicrobiota"
+                ]
+            },
+            {
+                "name": "Prebiotic Sources & Types",
+                "node_ids": [
+                    "C_Prebiotics",
+                    "B_Inulin",
+                    "B_FOS",
+                    "B_GOS",
+                    "B_ResistantStarch",
+                    "B_XOS",
+                    "B_Oligofructose",
+                    "B_BetaGlucan",
+                    "B_FODMAPs",
+                    "S_ChicoryRoot",
+                    "S_Artichokes",
+                    "S_Garlic",
+                    "S_Onions",
+                    "S_Bananas",
+                    "S_WholeGrains",
+                    "S_Legumes",
+                    "S_FermentedFoods",
+                    "S_Milk",
+                    "S_Seaweed",
+                    "S_BreastMilk",
+                    "S_SoyMilk",
+                    "S_AnnurcaApplePuree",
+                    "S_PurpleSweetPotatoYoghurt",
+                    "S_GreenTeaExtract",
+                    "S_Mushrooms",
+                    "S_CocoaFibers",
+                    "S_LithothamniumMuelleri",
+                    "S_SteviaRebaudiana",
+                    "S_AloeVera",
+                    "S_CoffeeBeans",
+                    "S_CashewApplePowder",
+                    "S_AgaveFructans",
+                    "S_CitrusPeel",
+                    "S_Potato",
+                    "S_CerealGrains",
+                    "S_AgriculturalResidues",
+                    "S_Honey",
+                    "S_Rye",
+                    "S_Salsify",
+                    "S_Tomato",
+                    "S_Asparagus",
+                    "S_SugarBeet",
+                    "S_Wheat",
+                    "S_BambooShoots",
+                    "S_Mustard",
+                    "S_Chickpeas",
+                    "S_Oats",
+                    "S_Barley",
+                    "S_Corn",
+                    "S_Rice",
+                    "S_YaconFlour",
+                    "S_GreenDwarfBananaFlour",
+                    "S_WheatTaroCompositeFlour",
+                    "S_PassionFruitJuice",
+                    "S_FermentedPomegranateJuice",
+                    "S_GasseriPA3Yoghurt",
+                    "Chem_Mannitol",
+                    "Chem_Maltodextrin",
+                    "Chem_Pectin",
+                    "Chem_Gums",
+                    "Chem_Lignin",
+                    "Chem_AlphaGlucans",
+                    "Chem_Amylose",
+                    "Chem_Amylopectin",
+                    "Chem_ProcessedStarches",
+                    "Chem_IsomaltOligosaccharides",
+                    "Chem_Transgalactooligosaccharides",
+                    "Chem_SoyOligosaccharides",
+                    "Chem_RaffinoseOligosaccharides",
+                    "Chem_AlgalPolysaccharide",
+                    "Chem_AloeVeraFructans",
+                    "Chem_Laminarin",
+                    "Chem_PectinOligosaccharides",
+                    "Chem_ArabinoOligosaccharides",
+                    "Chem_DifructoseAnhydrides",
+                    "Chem_OligosaccharidesFromBreastMilk"
+                ]
+            },
+            {
+                "name": "Probiotic Strains & Products",
+                "node_ids": [
+                    "C_Probiotics",
+                    "B_Lactobacillus",
+                    "B_Bifidobacterium",
+                    "B_SaccharomycesBoulardii",
+                    "B_LactobacillusPlantarumDR7",
+                    "B_LactobacillusRhamnosusGG",
+                    "B_LactobacillusPlantarum299v",
+                    "B_LactobacillusAcidophilus",
+                    "B_LactobacillusReuteriV3401",
+                    "B_EcologicBarrier",
+                    "B_LactobacillusFermentumMTCC5898",
+                    "B_LactobacillusCaseiShirota",
+                    "B_LactobacillusPlantarumZDYO4",
+                    "B_BifidobacteriumAnimalisLKM512",
+                    "B_VSL3",
+                    "B_EscherichiaColiNissle1917",
+                    "B_BifidobacteriumAnimalisVarLactisBB12",
+                    "B_EColiEMO",
+                    "B_SaccharomycesCerevisiaeStrain905",
+                    "B_LactobacillusCasei",
+                    "B_LactobacillusBulgaricus",
+                    "B_BifidobacteriumLongum",
+                    "B_BifidobacteriumBreve",
+                    "B_BifidobacteriumInfantis",
+                    "B_StreptococcusThermophilus",
+                    "B_LactobacillusBrevis",
+                    "B_PediococcusAcidilacticiUL5",
+                    "B_LactobacillusSalivarius",
+                    "B_LactobacillusReuteri",
+                    "B_PediococcusAcidilactici",
+                    "B_Streptococcus",
+                    "B_Lactococcus",
+                    "B_Leuconostoc",
+                    "B_Pediococcus",
+                    "B_LactobacillusPlantarumCECT220",
+                    "B_LactobacillusCaseiCECT475",
+                    "B_LLactis",
+                    "B_EscherichiaColi",
+                    "B_LactobacillusJensenii",
+                    "B_BacillusCoagulans",
+                    "B_LactobacillusAcidophilusLA5",
+                    "B_BBifidumBG12",
+                    "B_LactobacillusPlantarumPH40",
+                    "B_LactobacillusCaseiCRL431",
+                    "B_LRhamnosusHN001",
+                    "B_BLactisHN019",
+                    "B_LAcidophilusStrainT16",
+                    "B_BBifidumStrainBIA6",
+                    "B_BLactisStrainBIA6",
+                    "B_BLongumStrainLAF5",
+                    "B_LAcidophilusATCC4962",
+                    "B_LRhamnosusLRH11",
+                    "B_LPlantarumSGL07",
+                    "B_LDelbrueckii",
+                    "B_SThremophilus",
+                    "B_LactobacillusDM9218",
+                    "B_LGasseriPA3",
+                    "B_LAcidophilusKB27",
+                    "B_LRhamnosusKB79",
+                    "B_LactobacillusHelveticus",
+                    "B_LactobacillusParacasei",
+                    "B_BacillusBulgaricus",
+                    "B_LacticAcidProducingBacteria",
+                    "B_Acinetobacter",
+                    "B_StreptomycesNoursei",
+                    "B_LactococcusLactis",
+                    "B_StreptococcusLactis",
+                    "B_LactobacillusFructivorans",
+                    "B_FaecalibacteriumPrausnitzii",
+                    "B_Campylobacter",
+                    "B_Salmonella",
+                    "B_HelicobacterPylori",
+                    "B_PenicilliumOxalicum",
+                    "B_BCirculans",
+                    "B_AJaponicusFT",
+                    "B_AeromonasHydrophila",
+                    "B_Rotaviruses",
+                    "B_EnterohemorrhagicEColiO157H7",
+                    "B_SARSCoV2",
+                    "B_Coronaviruses",
+                    "B_NewcastleDisease",
+                    "Prod_PrebioticSupplements",
+                    "Prod_PrebioticsChocolates",
+                    "Prod_ProbioticsChocolates",
+                    "Prod_SynbioticsChocolates",
+                    "Prod_FermentedMilk",
+                    "Prod_IceCream",
+                    "Prod_MilkBeverages",
+                    "Prod_PowderedProbiotic",
+                    "Prod_FunctionalFoods",
+                    "Prod_SoyMilk",
+                    "Prod_SynbioticYoghurts",
+                    "Prod_LactofermentedAnnurcaApplePuree",
+                    "Prod_ProbioticFermentedPurpleSweetPotatoYoghurt",
+                    "Prod_LGasseriPA3Yoghurt",
+                    "Prod_MacrospheresOfChitosan",
+                    "Prod_CornDerivedMaltodextrin",
+                    "Prod_InulinNanoparticle",
+                    "Prod_AlginateChitosanAlginateMicrocapsules",
+                    "Prod_SoyProteinIsolate",
+                    "Prod_AcylatedSoyProtein",
+                    "Prod_StarchGranules",
+                    "Prod_Nanoparticles",
+                    "Prod_Liposomes",
+                    "Prod_BioNanocomposite",
+                    "Prod_BacterialNanocellulose",
+                    "Prod_ModifiedStarch",
+                    "Prod_AlteredStarch"
+                ]
+            },
+            {
+                "name": "Immune System Modulation",
+                "node_ids": [
+                    "C_ImmuneSystem",
+                    "C_Inflammation",
+                    "C_Immunomodulation",
+                    "C_SystemicImmuneResponse",
+                    "C_MucosalImmunity",
+                    "C_BarrierFunction",
+                    "C_AntiviralDefenses",
+                    "C_CytokineStorm",
+                    "C_ImmuneResponse",
+                    "C_ProinflammatoryMediators",
+                    "C_AntimicrobialSubstances",
+                    "C_Bacteriocins",
+                    "C_Cytokines",
+                    "C_PatternRecognitionReceptors",
+                    "C_TollLikeReceptors",
+                    "C_NodLikeReceptors",
+                    "C_CellAdhesion",
+                    "C_NutrientCompetition",
+                    "C_Immunostimulation",
+                    "C_MicrobialTranslocation",
+                    "C_AntitumorProperties",
+                    "C_LungBarrierFunction",
+                    "C_BacterialMetabolism",
+                    "C_ToxinProduction",
+                    "C_PhagocyticActivation",
+                    "C_NeutrophilActivation",
+                    "C_AlternativeComplementSystem",
+                    "C_LysozymeActivity",
+                    "C_RespiratoryBurstActivity",
+                    "C_Phagocytosis",
+                    "C_NitricOxideProduction",
+                    "C_Melanization",
+                    "C_BiologicResponseModifiers",
+                    "C_ImmuneSystemFunction",
+                    "C_NonspecificCellularImmuneResponse",
+                    "C_GutMucosalImmuneSystem",
+                    "C_AntimicrobialPeptides",
+                    "C_MAMPElicitedSignaling",
+                    "C_EpithelialCytoprotection",
+                    "C_SurvivalProliferationPathways",
+                    "C_TLRActivation",
+                    "C_CytokineExpression",
+                    "C_PatternRecognitionProteins",
+                    "C_AntiallergicReactions",
+                    "C_ResistanceToInfection",
+                    "C_ImmuneResponseModulation",
+                    "C_ImmuneSystemDevelopment",
+                    "C_InnateImmuneSystems",
+                    "C_AdaptiveImmuneSystems",
+                    "C_ImmuneCells",
+                    "C_ImmuneCellsActivation",
+                    "C_ImmuneCellsDegranulation",
+                    "C_ImmuneCellsSecretion",
+                    "C_ImmuneCellsModulation",
+                    "C_ImmuneCellsDifferentiation",
+                    "C_ImmuneCellsProliferation",
+                    "C_ImmuneCellsRegulation",
+                    "C_ImmuneCellsHomeostasis",
+                    "C_ImmuneCellsTolerance",
+                    "C_ImmuneCellsDysregulation",
+                    "C_ImmuneCellsDysbiosis",
+                    "C_ImmuneCellsInflammation",
+                    "C_ImmuneCellsDisease",
+                    "C_ImmuneCellsTherapy",
+                    "C_ImmuneCellsProphylaxis",
+                    "C_ImmuneCellsAdjuvant",
+                    "C_ImmuneCellsVaccine",
+                    "C_ImmuneCellsAntiviral",
+                    "C_ImmuneCellsAntibiotic",
+                    "C_ImmuneCellsAntifungal",
+                    "C_ImmuneCellsAntiparasitic",
+                    "C_ImmuneCellsAntitumor",
+                    "C_ImmuneCellsAntioxidant",
+                    "C_ImmuneCellsAntiinflammatory",
+                    "C_ImmuneCellsAntihypertensive",
+                    "C_ImmuneCellsHypocholesterolemic",
+                    "C_ImmuneCellsAntidiabetic",
+                    "C_ImmuneCellsAntiosteoporotic",
+                    "C_ImmuneCellsAntiobesity",
+                    "C_ImmuneCellsAnticancer",
+                    "C_ImmuneCellsAntiaging",
+                    "C_ImmuneCellsAntidepressant",
+                    "C_ImmuneCellsAntianxiety",
+                    "C_ImmuneCellsAntistress",
+                    "C_ImmuneCellsAntifatigue",
+                    "C_ImmuneCellsAntiallergic",
+                    "C_ImmuneCellsAntiasthmatic",
+                    "C_ImmuneCellsAntiarthritic",
+                    "C_ImmuneCellsAntiautoimmune",
+                    "C_ImmuneCellsAntineural",
+                    "C_ImmuneCellsAntiinfectious",
+                    "C_ImmuneCellsAntiviralInfections",
+                    "C_ImmuneCellsAntibacterialInfections",
+                    "C_ImmuneCellsAntifungalInfections",
+                    "C_ImmuneCellsAntiparasiticInfections",
+                    "C_ImmuneCellsAntitumorActions",
+                    "C_ImmuneCellsAntioxidativeProperties",
+                    "C_ImmuneCellsAntiinflammatoryProperties",
+                    "C_ImmuneCellsAntihypertensiveProperties",
+                    "C_ImmuneCellsHypocholesterolemicProperties",
+                    "C_ImmuneCellsAntidiabeticProperties",
+                    "C_ImmuneCellsAntiosteoporoticProperties",
+                    "C_ImmuneCellsAntiobesityProperties",
+                    "C_ImmuneCellsAnticancerProperties",
+                    "C_ImmuneCellsAntiagingProperties",
+                    "C_ImmuneCellsAntidepressantProperties",
+                    "C_ImmuneCellsAntianxietyProperties",
+                    "C_ImmuneCellsAntistressProperties",
+                    "C_ImmuneCellsAntifatigueProperties",
+                    "C_ImmuneCellsAntiallergicProperties",
+                    "C_ImmuneCellsAntiasthmaticProperties",
+                    "C_ImmuneCellsAntiarthriticProperties",
+                    "C_ImmuneCellsAntiautoimmuneProperties",
+                    "C_ImmuneCellsAntineuralProperties",
+                    "C_ImmuneCellsAntiinfectiousProperties",
+                    "C_ImmuneCellsAntiviralInfectionsProperties",
+                    "C_ImmuneCellsAntibacterialInfectionsProperties",
+                    "C_ImmuneCellsAntifungalInfectionsProperties",
+                    "C_ImmuneCellsAntiparasiticInfectionsProperties",
+                    "C_ImmuneCellsAntitumorActionsProperties",
+                    "C_ImmuneCellsAntioxidativePropertiesProperties",
+                    "C_ImmuneCellsAntiinflammatoryPropertiesProperties",
+                    "C_ImmuneCellsAntihypertensivePropertiesProperties",
+                    "C_ImmuneCellsHypocholesterolemicPropertiesProperties",
+                    "C_ImmuneCellsAntidiabeticPropertiesProperties",
+                    "C_ImmuneCellsAntiosteoporoticPropertiesProperties",
+                    "C_ImmuneCellsAntiobesityPropertiesProperties",
+                    "C_ImmuneCellsAnticancerPropertiesProperties",
+                    "C_ImmuneCellsAntiagingPropertiesProperties",
+                    "C_ImmuneCellsAntidepressantPropertiesProperties",
+                    "C_ImmuneCellsAntianxietyPropertiesProperties",
+                    "C_ImmuneCellsAntistressPropertiesProperties",
+                    "C_ImmuneCellsAntifatiguePropertiesProperties",
+                    "C_ImmuneCellsAntiallergicPropertiesProperties",
+                    "C_ImmuneCellsAntiasthmaticPropertiesProperties",
+                    "C_ImmuneCellsAntiarthriticPropertiesProperties",
+                    "C_ImmuneCellsAntiautoimmunePropertiesProperties",
+                    "C_ImmuneCellsAntineuralPropertiesProperties",
+                    "C_ImmuneCellsAntiinfectiousPropertiesProperties",
+                    "C_ImmuneCellsAntiviralInfectionsPropertiesProperties",
+                    "C_ImmuneCellsAntibacterialInfectionsPropertiesProperties",
+                    "C_ImmuneCellsAntifungalInfectionsPropertiesProperties",
+                    "C_ImmuneCellsAntiparasiticInfectionsPropertiesProperties",
+                    "C_ImmuneCellsAntitumorActionsPropertiesProperties"
+                ]
+            },
+            {
+                "name": "Cardiovascular Health",
+                "node_ids": [
+                    "D_CVD",
+                    "D_CoronaryArteryDisease",
+                    "D_Stroke",
+                    "D_Hypertension",
+                    "D_ThromboticDisorders",
+                    "D_Angina",
+                    "D_MyocardialInfarction",
+                    "D_HypertensiveHeartDiseases",
+                    "D_Cardiomyopathy",
+                    "D_VenousThrombosis",
+                    "D_Arrhythmia",
+                    "D_ThromboembolicDisease",
+                    "D_Atherosclerosis",
+                    "D_PeripheralArteryDisease",
+                    "D_ChronicHeartConditions",
+                    "D_ArterialHypertension",
+                    "D_CardiovascularDisorders",
+                    "D_CongestiveHeartFailure",
+                    "C_CholesterolLevels",
+                    "C_BloodPressure",
+                    "C_TMAO",
+                    "C_Atherogenesis",
+                    "C_Thrombosis",
+                    "C_OxidativeStress",
+                    "C_Inflammation",
+                    "C_HyperactivationOfBloodPlatelets",
+                    "C_AntithrombinLevels",
+                    "C_CoagulationSystem",
+                    "C_ProatherogenicRiskFactors",
+                    "C_FoamyCells",
+                    "C_CardiomyocyteApoptosis",
+                    "C_MembraneFluidity",
+                    "C_VascularEndothelialFunction",
+                    "C_InflammatoryBiomarkers",
+                    "C_EndothelialVasodilation",
+                    "C_LipidPeroxidation",
+                    "C_GlucoseLipidHomeostasis",
+                    "C_EnergyMetabolism",
+                    "C_CardiovascularRiskFactors",
+                    "C_BloodCalciumAbsorption",
+                    "C_IronAbsorption",
+                    "C_PlasmaCholesterol",
+                    "C_GlycemicIndex",
+                    "C_GlycemicLoad",
+                    "C_Hyperinsulinemia",
+                    "C_InsulinResistance",
+                    "C_GlucoseMetabolism",
+                    "C_Urea",
+                    "C_CMPF",
+                    "C_GlucoseHomeostasis",
+                    "C_VisceralHypersensitivity",
+                    "C_FunctionalDyspepsia",
+                    "C_Stress",
+                    "C_Anxiety",
+                    "C_Depression",
+                    "C_CircadianRhythm",
+                    "C_Metabolites",
+                    "C_CholesterolAssimilation",
+                    "C_LipidMetabolism",
+                    "C_CarbohydrateMetabolism",
+                    "C_BloodPlateletAggregation",
+                    "C_NitricOxideLevel",
+                    "C_UricAcidLevel",
+                    "C_IndoxylSulphate",
+                    "C_pCresylSulphate",
+                    "C_Homocysteine",
+                    "C_SerumVascularEndothelialGrowthFactor",
+                    "C_PSelectinExpression",
+                    "C_BloodPlateletEndothelialCellInteractions",
+                    "C_ADPInducedPlateletAggregation",
+                    "C_IntracellularAdhesionMoleculeType1",
+                    "C_SolubleIntercellularAdhesionMolecule1",
+                    "C_ThiobarbituricAcidReactiveSubstances",
+                    "C_HemoglobinConcentrations",
+                    "C_SerumProteins",
+                    "C_BloodCalcium",
+                    "C_Iron",
+                    "C_OleicAcid",
+                    "C_ArachidicAcid",
+                    "C_BehenicAcid",
+                    "C_Flavonoids",
+                    "C_GutHormones",
+                    "C_EnzymeActivity",
+                    "C_FoodToxins",
+                    "C_InsulinResistantGenes",
+                    "C_BMAL1",
+                    "C_LIN28",
+                    "C_AMPKPhosphorylation",
+                    "C_ABCG8",
+                    "C_ABCG5",
+                    "C_NPC1L1",
+                    "C_HMGCR",
+                    "C_Catalase",
+                    "C_SuperoxideDismutase",
+                    "C_GlutathionePeroxidase",
+                    "C_HepaticFlavinMonooxygenases",
+                    "C_PrimaryBileAcids",
+                    "C_BloodCholesterol",
+                    "C_BileAcids",
+                    "C_BileSaltSynthesis",
+                    "C_BileAcidDeconjugation",
+                    "C_ReninAngiotensinSystem",
+                    "C_CardiovascularRiskFactors",
+                    "C_ProatherogenicRiskFactors",
+                    "C_FoamyCellProduction",
+                    "C_MacrophageScavengerReceptors",
+                    "C_MacrophageRecruitment",
+                    "C_CardiomyocyteApoptosisAttenuation",
+                    "C_FasReceptorDependentApoptoticPathways",
+                    "C_MembranePermeability",
+                    "C_MembraneFluidity",
+                    "C_ErythrocytesDeformation",
+                    "C_BloodPlateletActivation",
+                    "C_AntithrombinLevelsModulation",
+                    "C_CoagulationSystemInfluence",
+                    "C_UricAcidExtraction",
+                    "C_IntrarenalAccumulation",
+                    "C_HyperuricemiaStimulation",
+                    "C_RenalDamagePrevention",
+                    "C_LiverDamagePrevention",
+                    "C_RetinolUricAcidAccumulationPrevention",
+                    "C_InosineDegradation",
+                    "C_OxidativeStressReduction",
+                    "C_InflammationReduction",
+                    "C_HomocysteineReduction",
+                    "C_BloodPressureReduction",
+                    "C_CholesterolReduction",
+                    "C_TriglycerideReduction",
+                    "C_LDLReduction",
+                    "C_HDLIncrease",
+                    "C_VLDLReduction",
+                    "C_InsulinSensitivityImprovement",
+                    "C_BloodSugarRegulation",
+                    "C_WeightManagement",
+                    "C_ReducedInflammation",
+                    "C_ImprovedDigestion",
+                    "C_EnhancedImmuneFunction",
+                    "C_AntitumorActions",
+                    "C_AntiProliferativeProperties",
+                    "C_ProApoptoticProperties",
+                    "C_AntiOxidativeProperties",
+                    "C_AntiObesogenicEffects",
+                    "C_EpithelialCytoprotection",
+                    "C_SurvivalProliferationPathways",
+                    "C_BarrierFunctionImprovement",
+                    "C_AntiviralDefensesEnhancement",
+                    "C_CytokineStormMitigation",
+                    "C_PatientOutcomesImprovement",
+                    "C_SymptomsReduction",
+                    "C_AlteredMicrobiotaImprovement",
+                    "C_ImmunoglobulinsIncrease",
+                    "C_IgMIncrease",
+                    "C_IgGIncrease",
+                    "C_sIgAIncrease",
+                    "C_AdverseEventsReduction",
+                    "C_EconomicBenefitsContribution",
+                    "C_PublicHealthInterventionsIntegration",
+                    "C_DietaryGuidelinesIntegration",
+                    "C_LaborProductivityIncrease",
+                    "C_MetabolicOrganFunction",
+                    "C_PhysiologyInfluence",
+                    "C_NutritionInfluence",
+                    "C_IntestinalTransitRegulation",
+                    "C_EssentialAminoAcidsSynthesis",
+                    "C_VitaminsSynthesis",
+                    "C_PolyunsaturatedFattyAcidsSynthesis",
+                    "C_LactoseDigestionPromotion",
+                    "C_SolubleDietaryFiberUtilization",
+                    "C_MineralsAbsorptionFacilitation",
+                    "C_ImmuneSystemFunctionImprovement",
+                    "C_MentalWellBeingImprovement",
+                    "C_ComplexCarbohydratesBreakdown",
+                    "C_InsulinSensitivityImprovement",
+                    "C_ImmuneResponseModulation",
+                    "C_ProinflammatoryMediatorsReduction",
+                    "C_SodiumAbsorptionStimulation",
+                    "C_IntestinalPermeabilityDecrease",
+                    "C_PathogenicMicroorganismsInvasionDecrease",
+                    "C_IntestinalDefenseImprovement",
+                    "C_MicroenvironmentInstigation",
+                    "C_BioavailabilityEnhancement",
+                    "C_BioAccessibilityEnhancement",
+                    "C_HostGutMicrofloraSymbioticRelationshipsClarification",
+                    "C_GeneticFactorsInfluence",
+                    "C_EpigeneticFactorsInfluence",
+                    "C_EnvironmentalFactorsInfluence",
+                    "C_PolymorphismsRapport",
+                    "C_HyperinsulinemiaRiskReduction",
+                    "C_InsulinResistanceRiskReduction",
+                    "C_GlucoseMetabolismModulation",
+                    "C_MicrobiomeGutBrainAxisModulation",
+                    "C_NervousSystemLink",
+                    "C_MucosalBarrierSystemLink",
+                    "C_NeurotransmittersLink",
+                    "C_HormonesLink",
+                    "C_VisceralHypersensitivityInvolvement",
+                    "C_FunctionalDyspepsiaInvolvement",
+                    "C_StressInvolvement",
+                    "C_AnxietyInvolvement",
+                    "C_DepressionInvolvement",
+                    "C_CircadianRhythmInvolvement",
+                    "C_MetabolitesInfluence",
+                    "C_CholesterolAssimilationDrive",
+                    "C_LipidPeroxidationInhibition",
+                    "C_HyperactivationOfBloodPlateletsReduction",
+                    "C_AntithrombinLevelsModulation",
+                    "C_CoagulationSystemInfluence",
+                    "C_ProatherogenicRiskFactorsRelation",
+                    "C_FoamyCellsProductionReduction",
+                    "C_CardiomyocyteApoptosisAttenuation",
+                    "C_MembraneFluidityImprovement",
+                    "C_AlteredMicrobiotaImprovement",
+                    "C_HostMicrofloraAlteration",
+                    "C_ColonizationAchievement",
+                    "C_ImplantationAchievement",
+                    "C_PhysiologicalActivityDependence",
+                    "C_MacromoleculeSynthesisDecrease",
+                    "C_CellDeathLead",
+                    "C_AntitumorPropertiesPossession",
+                    "C_HypocholesterolemiaPossession",
+                    "C_LungBarrierFunctionImprovement",
+                    "C_AntiviralDefensesEnhancement",
+                    "C_BacterialMetabolismAffect",
+                    "C_ToxinProductionAffect",
+                    "C_ImmunostimulationInducement",
+                    "C_MicrobialTranslocationPrevention",
+                    "C_BacterialFermentationModification",
+                    "C_ColonyGrowthHalt",
+                    "C_CellDamageReduction",
+                    "C_PlasmaPeroxidationReduction",
+                    "C_SampleSizeRequirement",
+                    "C_SelectionBiasMinimization",
+                    "C_ConfoundingBiasMinimization",
+                    "C_PublicationBiasMinimization",
+                    "C_DerivedMetabolitesExploration"
+                ]
+            },
+            {
+                "name": "Disease Management (Beyond CVD)",
+                "node_ids": [
+                    "D_Obesity",
+                    "D_Diabetes",
+                    "D_InflammatoryDisorders",
+                    "D_Type2Diabetes",
+                    "D_IBD",
+                    "D_CrohnsDisease",
+                    "D_ColorectalCancer",
+                    "D_IBS",
+                    "D_Arthritis",
+                    "D_Asthma",
+                    "D_RheumatoidArthritis",
+                    "D_CKD",
+                    "D_COVID19",
+                    "D_AcuteViralGastroenteritis",
+                    "D_AntibioticAssociatedDiarrhea",
+                    "D_UpperRespiratoryTractInfections",
+                    "D_HeartDisease",
+                    "D_AutoimmuneDisorders",
+                    "D_CertainCancers",
+                    "D_NeuralDisorders",
+                    "D_InfectiousDiseases",
+                    "D_AlcoholicFattyLiverDisease",
+                    "D_DM2",
+                    "D_DKD",
+                    "D_ColonCancer",
+                    "D_Alcoholism",
+                    "D_HepaticDisease",
+                    "D_Gastroenteritis",
+                    "D_Dyslipidemia",
+                    "D_MetabolicSyndrome",
+                    "D_PneumococcalPneumonia",
+                    "D_PrecancerousDevelopmentOfColonicLesions",
+                    "D_HighFructoseInducedLiverDamage",
+                    "D_HepatorenalSyndrome",
+                    "D_Hyperuricaemia",
+                    "D_Gout",
+                    "D_Hyperuricemia",
+                    "D_RenalDamage",
+                    "D_PediatricAllergicDisorders",
+                    "D_NecrotizingEnterocolitis",
+                    "D_PostsurgicalPouchitis",
+                    "D_SalmonellaInfections",
+                    "D_AllergicDiseases",
+                    "D_AtopicDiseases",
+                    "D_ColonPolypFormation",
+                    "D_NewcastleDisease",
+                    "D_HIV"
+                ]
+            },
+            {
+                "name": "Delivery & Mechanism Strategies",
+                "node_ids": [
+                    "M_Microencapsulation",
+                    "M_Immobilization",
+                    "M_Metagenomics",
+                    "M_RCTs",
+                    "M_EnzymaticDigestions",
+                    "M_Encapsulation",
+                    "M_Entrapment",
+                    "M_SystemsBiology",
+                    "M_MetabolicEngineering",
+                    "M_Bioreactors",
+                    "M_ChemicalDegradation",
+                    "M_BiEnzymaticSystem",
+                    "M_ComputationalStudies",
+                    "M_GenomicStudies",
+                    "M_Transcriptomics",
+                    "M_Proteomics",
+                    "M_Metabolomics",
+                    "M_BrachialArteryFlowMediatedDilation",
+                    "M_EndothelialVasodilation",
+                    "M_PMAqPCRCounting",
+                    "M_OralGavage",
+                    "M_WaterBottleAndSyringeFeeding",
+                    "M_CoacervationOfSoybeanProteinConcentrate",
+                    "M_SprayDrying",
+                    "M_VesicularSystems",
+                    "M_ConcanavalinStimulation",
+                    "M_GlutenFreeDiets",
+                    "M_GuidedEliminationDiets",
+                    "M_AntibioticTherapy",
+                    "M_OxygenOzone",
+                    "M_Bacteriotherapy",
+                    "M_OmicsAnalyses",
+                    "C_AntimicrobialSubstances",
+                    "C_Bacteriocins",
+                    "C_Cytokines",
+                    "C_PatternRecognitionReceptors",
+                    "C_TollLikeReceptors",
+                    "C_NodLikeReceptors",
+                    "C_CellAdhesion",
+                    "C_NutrientCompetition",
+                    "C_MembranePermeability",
+                    "C_LipidMetabolism",
+                    "C_CarbohydrateMetabolism",
+                    "C_GlucoseHomeostasis",
+                    "C_UricAcidLevel",
+                    "C_TMAO",
+                    "C_Atherogenesis",
+                    "C_Thrombosis",
+                    "C_Immunomodulation",
+                    "C_SystemicImmuneResponse",
+                    "C_MucosalImmunity",
+                    "C_BarrierFunction",
+                    "C_AntiviralDefenses",
+                    "C_CytokineStorm",
+                    "C_AdverseEvents",
+                    "C_EconomicBenefits",
+                    "C_PublicHealthInterventions",
+                    "C_DietaryGuidelines",
+                    "C_LaborProductivity",
+                    "C_MetabolicOrgan",
+                    "C_Physiology",
+                    "C_Nutrition",
+                    "C_IntestinalTransit",
+                    "C_EssentialAminoAcids",
+                    "C_Vitamins",
+                    "C_PolyunsaturatedFattyAcids",
+                    "C_LactoseDigestion",
+                    "C_SolubleDietaryFiber",
+                    "C_Minerals",
+                    "C_ImmuneSystemFunction",
+                    "C_MentalWellBeing",
+                    "C_ComplexCarbohydrates",
+                    "C_InsulinSensitivity",
+                    "C_ImmuneResponse",
+                    "C_ProinflammatoryMediators",
+                    "C_SodiumAbsorption",
+                    "C_PathogenicMicroorganisms",
+                    "C_IntestinalDefense",
+                    "C_Microenvironment",
+                    "C_Bioavailability",
+                    "C_BioAccessibility",
+                    "C_HostGutMicrofloraSymbioticRelationships",
+                    "C_GeneticFactors",
+                    "C_EpigeneticFactors",
+                    "C_EnvironmentalFactors",
+                    "C_Polymorphisms",
+                    "C_Hyperinsulinemia",
+                    "C_InsulinResistance",
+                    "C_GlucoseMetabolism",
+                    "C_MicrobiomeGutBrainAxis",
+                    "C_NervousSystem",
+                    "C_MucosalBarrierSystem",
+                    "C_Neurotransmitters",
+                    "C_Hormones",
+                    "C_VisceralHypersensitivity",
+                    "C_FunctionalDyspepsia",
+                    "C_Stress",
+                    "C_Anxiety",
+                    "C_Depression",
+                    "C_CircadianRhythm",
+                    "C_Metabolites",
+                    "C_CholesterolAssimilation",
+                    "C_LipidPeroxidation",
+                    "C_HyperactivationOfBloodPlatelets",
+                    "C_AntithrombinLevels",
+                    "C_CoagulationSystem",
+                    "C_ProatherogenicRiskFactors",
+                    "C_FoamyCells",
+                    "C_CardiomyocyteApoptosis",
+                    "C_MembraneFluidity",
+                    "C_AlteredMicrobiota",
+                    "C_HostMicroflora",
+                    "C_Colonization",
+                    "C_Implantation",
+                    "C_PhysiologicalActivity",
+                    "C_MacromoleculeSynthesis",
+                    "C_CellDeath",
+                    "C_AntitumorProperties",
+                    "C_Hypocholesterolemia",
+                    "C_LungBarrierFunction",
+                    "C_BacterialMetabolism",
+                    "C_ToxinProduction",
+                    "C_Immunostimulation",
+                    "C_MicrobialTranslocation",
+                    "C_BacterialFermentation",
+                    "C_ColonyGrowth",
+                    "C_CellDamage",
+                    "C_PlasmaPeroxidation",
+                    "C_SampleSize",
+                    "C_SelectionBias",
+                    "C_ConfoundingBias",
+                    "C_PublicationBias",
+                    "C_DerivedMetabolites"
+                ]
+            }
+        ],
+        "key_papers": [
+            "C_Prebiotics",
+            "C_Probiotics",
+            "C_GutMicrobiota",
+            "C_ImmuneSystem",
+            "D_CVD",
+            "D_COVID19"
+        ],
+        "total_nodes": 224
+    }
+}
