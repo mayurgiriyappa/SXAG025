@@ -47,5 +47,47 @@ def process_documents(documents: List[Dict[str, Any]], llm: Any, extract_entitie
     structured_llm = llm.with_structured_output(GraphExtraction)
     response = structured_llm.invoke(prompt)
     
-    # Return purely as a dictionary to match previous expectations in graphify_node.py
-    return response.model_dump()
+  # Dump the LLM output to a dictionary so we can inject our math into it
+    graph_dict = response.model_dump()
+    
+    # --- 2. THE MATHEMATICAL INTEGRATION (NetworkX) ---
+    print("[*] Calculating deterministic Centrality and Gap scores...")
+    
+    # Build a temporary deterministic graph from the LLM's edges
+    G = nx.DiGraph()
+    for edge in graph_dict.get('edges', []):
+        G.add_edge(edge['source'], edge['target'])
+        
+    if len(G.nodes) > 0:
+        # Calculate standard topological metrics
+        degree_centrality = nx.degree_centrality(G)
+        betweenness_centrality = nx.betweenness_centrality(G)
+        
+        # Flatten contradiction paper IDs for quick lookup
+        contradicted_nodes = set()
+        for c in graph_dict.get('contradictions', []):
+            for pid in c.get('paper_ids', []):
+                contradicted_nodes.add(pid)
+                
+        # Inject the math back into the node dictionaries
+        for node in graph_dict.get('nodes', []):
+            nid = node['id']
+            
+            # Centrality: How heavily linked is this node?
+            c_score = degree_centrality.get(nid, 0.0)
+            b_score = betweenness_centrality.get(nid, 0.0)
+            
+            # Gap Score Logic: 
+            # High betweenness (it connects isolated clusters) * High Sparsity (1 - degree centrality)
+            base_gap = b_score * (1.0 - c_score)
+            
+            # Add a massive penalty/bonus if it is an active contradiction
+            conflict_multiplier = 1.5 if nid in contradicted_nodes else 1.0
+            
+            final_gap_score = base_gap * conflict_multiplier
+            
+            # Round them for clean JSON output
+            node['centrality_score'] = round(c_score, 4)
+            node['gap_score'] = round(final_gap_score, 4)
+
+    return graph_dict
