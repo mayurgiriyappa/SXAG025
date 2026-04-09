@@ -4,3 +4,6 @@ tmp/
 outputs/
 output.json
 *.pyc
+
+visualization.py
+pyvisgraph.py
